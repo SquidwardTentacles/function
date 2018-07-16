@@ -1,0 +1,27 @@
+@function pr($p) {
+    @return $p/64+rem;
+}
+
+/*
+$(function(){
+//     var screenWidth = window.screen.width;
+// document.querySelector("html").style.fontSize = screenWidth  <= 414 ? "41.4px" :screenWidth/ 10 + "px";
+// 内部滚动
+mui('.mui-scroll-wrapper').scroll({
+	deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+});
+var screenWidth = window.screen.width;
+if(screenWidth<=414){
+    screenWidth="41.4px"
+}else{
+    screenWidth= screenWidth/ 10 + "px";
+}
+if(screenWidth>600){
+    screenWidth='60px'
+}
+document.querySelector("html").style.fontSize = screenWidth  
+    
+})
+js中获取屏幕的宽度
+
+*/
